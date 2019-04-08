@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-
-
 # Copyright (c) 2019 Konrad Pagacz
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
