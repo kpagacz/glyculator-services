@@ -13,10 +13,6 @@ Copy paste and run this into your console:
 You might need to specify a --user flag, if you are not sudo:
 > pip install --user git+https://github.com/kpagacz/glyculator-services.git@master
 
-##### Windows
-Copy paste and run this into your console:
-> python -m pip install git+https://github.com/kpagacz/glyculator-services.git@master
-
 #### Running
 The most simple is:
 > glyculator-restart
