@@ -1,0 +1,9 @@
+# PyCharm
+venv/
+.idea/
+
+# Python
+__pycache__/
+
+# Git
+.git/
