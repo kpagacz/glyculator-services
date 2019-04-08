@@ -12,3 +12,6 @@ __pycache__/
 build/
 dist/
 glyculator2_restart_service.egg-info/
+
+# Debug info
+debug.log
