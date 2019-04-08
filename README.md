@@ -8,6 +8,7 @@ This script serves the purpose of restarting a shiny server.
 #### Installation:
 ##### Linux
 Copy paste and run this into your console:
+
 > pip install git+https://github.com/kpagacz/glyculator-services.git@master
 
 You might need to specify a --user flag, if you are not sudo:
