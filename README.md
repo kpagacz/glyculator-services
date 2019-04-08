@@ -18,6 +18,9 @@ You might need to specify a --user flag, if you are not sudo:
 The most simple is:
 > glyculator-restart
 
+To run it in the background:
+> glyculator-restart &
+
 ##### Logging
 The restart service is outputting a single text 
 file called debug.log in the **working directory**. So make sure to create
