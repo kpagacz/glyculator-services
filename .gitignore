@@ -7,3 +7,8 @@ __pycache__/
 
 # Git
 .git/
+
+# Distribution stuff
+build/
+dist/
+glyculator2_restart_service.egg-info/
