@@ -56,6 +56,8 @@ def main():
                         datefmt="%d/%m/%Y %I:%M:%S %p",
                         filemode="w")
 
+    # Infinite loop, which attempts to check, whether glyculator is online
+    # and if it is down - restart shiny server
     while True:
         # Setting up a logger
         logger = logging.getLogger("")

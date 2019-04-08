@@ -133,7 +133,7 @@ setup(
     # executes the function `main` from this package when invoked:
     entry_points={  # Optional
         'console_scripts': [
-            'glyculator-restart=restart-script:main',
+            'glyculator-restart=restart_script:main',
         ],
     },
 
