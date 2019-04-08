@@ -78,7 +78,7 @@ setup(
     #
     #   py_modules=["my_module"],
     #
-    py_modules = ["restart-script"],  # Required
+    packages=find_packages(exclude=["venv"]),  # Required
 
     # Specify which Python versions you support. In contrast to the
     # 'Programming Language' classifiers above, 'pip install' will check this
@@ -132,9 +132,9 @@ setup(
     # For example, the following would provide a command called `sample` which
     # executes the function `main` from this package when invoked:
     entry_points={  # Optional
-        # 'console_scripts': [
-        #     'sample=sample:main',
-        # ],
+        'console_scripts': [
+            'glyculator-restart=restart-script:main',
+        ],
     },
 
     # List additional URLs that are relevant to your project as a dict.

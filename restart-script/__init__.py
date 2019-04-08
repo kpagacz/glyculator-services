@@ -51,7 +51,7 @@ def check_url_response(url: str) -> bool:
         return r.ok
 
 
-if __name__ == "__main__":
+def main():
     # Logging config
     logging.basicConfig(filename="debug.log",
                         level=logging.DEBUG,
